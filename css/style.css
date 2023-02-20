@@ -2189,12 +2189,7 @@ body{
   }
   /*--CSS Style for ABOUT US --*/
   
-  .mission-vision-grid{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 20px;
-  }
+  
   .mission-title{
     font-family: Roboto, Arial, Helvetica;
     font-weight: bold;
@@ -2203,16 +2198,21 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 120px;
   }
   .mission{
     text-align: center;
     margin-right: 5px;
     font-weight: bold;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+
   }
   .vision-title{
     font-family: Roboto, Arial, Helvetica;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 120px;
     color: red;
     align-items: center;
     justify-content: center;
@@ -2222,13 +2222,28 @@ body{
     text-align: center;
     margin-left: 5px;
     font-weight: bold;
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 300px;
   }
   @media (max-width: 425px) {
-    .mission-vision-grid{
-      grid-template-columns: 1fr;
+    .vision-title{
+      font-size: 85px;
     }
     .vision{
       margin-top: 20px;
+      font-size: 20px;
+      margin-bottom: 100px;
+    }
+    .mission-title{
+      font-size: 70px;
+    }
+    .mission{
+      margin-top: 20px;
+      font-size: 20px;
+      margin-bottom: 0px;
+      margin-bottom: 100px;
+
     }
   }
   @media (min-width: 1000px){
@@ -2246,18 +2261,26 @@ body{
     justify-content: center;
     text-align: center;
     letter-spacing: -9px;
-    margin-top: 40px;
+    margin-top: 110px;
   }
   @media (max-width: 425px) {
     .web-title1{
-    font-size: 49px;
+    font-size: 55px;
     letter-spacing: -2px;
+    }  
+  }
+  @media (min-width: 1000px) {
+    .web-title1{
+    font-size: 110px;
+    letter-spacing: -2px;
+    margin-top: 100px;
+    margin-bottom: 0;
     }  
   }
   .picture-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .developer1{
     width: 200px;
