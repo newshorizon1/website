@@ -98,7 +98,8 @@ body{
   margin-bottom:0; 
      }
   #header .navbar-brand {
-     font-size:40px;
+     margin-top: 10px;
+     font-size: 40px;
      font-family: 'Caveat Brush', cursive;
      font-style:oblique;
      color: #FF9933!important;
@@ -1544,10 +1545,11 @@ body{
   
   @media screen and (max-width : 767px){
   #header .navbar-brand {
-  font-size: 20px;
+  font-size: 35px;
   padding-left: 0px;
   padding: 10px;
   padding-top: 5px;
+  margin-top: 20px;
   }
   #header .navbar-default {
   padding-top: 0px;
@@ -2179,26 +2181,29 @@ body{
   }
   /*--CSS Style for ABOUT US --*/
   
-  
+  .mission {
+		box-sizing: border-box;
+		text-align: center;
+		margin: auto;
+		margin-top: 200px;
+		margin-bottom: 200px;
+		width: 30%;
+		height: 200px;
+		padding: 3px;
+		background-color: rgb(196, 194, 194);
+		background-size: 100% 100%;
+		justify-content: center;
+		align-content: center;
+    border-radius: 2px;
+    font-size: 20px;
+  }
   .mission-title{
-    font-family: Roboto, Arial, Helvetica;
+    font-family: Dancing Script;
+    font-size: 60px;
     font-weight: bold;
-    font-size: 50px;
-    color: #FF9933;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 120px;
   }
-  .mission{
-    text-align: center;
-    margin-right: 5px;
-    font-weight: bold;
-    font-size: 35px;
-    margin-top: 100px;
-    margin-bottom: 300px;
 
-  }
+
   .vision-title{
     font-family: Roboto, Arial, Helvetica;
     font-weight: bold;
