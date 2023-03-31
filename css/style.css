@@ -491,11 +491,11 @@ body{
      }
   .footer_3 p{ 
   padding-left:20px;
+
      }
   .footer_3 h4{ 
-    font-family: 'Source Serif Pro', serif;
-
-    color: white;
+  font-family: 'Source Serif Pro', serif;
+  color: rgb(250, 250, 250);
   padding-left:20px;
   padding-top:10px;
   padding-bottom:15px;
@@ -503,13 +503,28 @@ body{
   .footer_3 h4 a{ 
   color:#FFFFFF;
   font-family: 'Source Serif Pro', serif;
+    
      }
   .footer_3 img {
   
   -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+  width: 83px;
+  height: 63px;
+}
+@media (min-width: 425px) {
+  .footer_3 img{
+    width: 83px;
+    height: 63px;
   }
+}
+@media (max-width: 1440px) {
+  .footer_3 img{
+    width: 83px;
+    height: 63px;
+  }
+}
   img:hover {
   opacity: 0.8;
   }
@@ -1646,7 +1661,6 @@ body{
   padding-bottom: 0px;
   }
   .footer_3 img {
-  width:100%;
   }
   .footer_3 h4 {
   padding-left: 0px;
@@ -1940,7 +1954,6 @@ body{
   width: 100%;
   }
   .footer_3 img { 
-  width:100%;
   }
   .footer_3 h4 {
   padding-top: 0px;
@@ -2094,7 +2107,6 @@ body{
   width: 100%;
   }
   .footer_3 img { 
-  width:100%;
   }
   .footer_3 h4 {
   padding-top: 0px;
@@ -2191,6 +2203,7 @@ body{
     margin-bottom: 15%;
     color: white;
   }
+  
   .box h1{
     color: #1f1f25;
     font-family: Dancing Script;
@@ -2203,6 +2216,14 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  @media (max-width: 425px) {
+    .box{
+      width: 300px;
+    }
+    .box h1{
+      font-size: 50px;
+    }
+  }
   .content{
       position: center;
       top: 20%;
@@ -2214,6 +2235,29 @@ body{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+  .box-contact{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: white;
+  }
+  
+  .box-contact h1{
+    color: #1f1f25;
+    font-family: Dancing Script;
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg,  #2AC5F6 10.69%, #BFB2F3 50.19%,#F8A3A8 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 .content-contact{
     position: center;
@@ -2234,7 +2278,15 @@ body{
 .contact-number{
   text-decoration: underline;
 }
-
+@media (max-width: 425px) {
+  .box-contact{
+    width: 300px;
+  }
+  .box-contact h1{
+    font-size: 50px;
+    margin-left: -10px;
+  }
+}
 
   .vision-title{
     font-family: Roboto, Arial, Helvetica;
