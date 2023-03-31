@@ -2181,27 +2181,59 @@ body{
   }
   /*--CSS Style for ABOUT US --*/
   
-  .mission {
-		box-sizing: border-box;
-		text-align: center;
-		margin: auto;
-		margin-top: 200px;
-		margin-bottom: 200px;
-		width: 30%;
-		height: 200px;
-		padding: 3px;
-		background-color: rgb(196, 194, 194);
-		background-size: 100% 100%;
-		justify-content: center;
-		align-content: center;
-    border-radius: 2px;
-    font-size: 20px;
+  .box{
+    width: 500px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: white;
   }
-  .mission-title{
+  .box h1{
+    color: #1f1f25;
     font-family: Dancing Script;
     font-size: 60px;
+    letter-spacing: 4px;
     font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg,  #2AC5F6 10.69%, #BFB2F3 50.19%,#F8A3A8 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
+  .content{
+      position: center;
+      top: 20%;
+      left: 2%;
+  }
+  .content p{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+.content-contact{
+    position: center;
+    top: 20%;
+    left: 2%;
+}
+.content-contact p{
+  font-size: 20px;
+  text-align: left;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.contact-email{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.contact-number{
+  text-decoration: underline;
+}
 
 
   .vision-title{
