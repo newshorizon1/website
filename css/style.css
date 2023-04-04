@@ -2371,7 +2371,7 @@ body{
   }
   .picture-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 10px;
   }
   .developer1{
@@ -2640,7 +2640,7 @@ body{
   }
   @media (min-width: 1000px){
     .picture-grid{
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
     .developer1{
       margin-top: 50px;
