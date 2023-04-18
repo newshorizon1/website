@@ -2285,6 +2285,9 @@ body{
     margin-top: 10px;
     margin-bottom: 20px;
   }
+  .contact1{
+
+  }
   @media (max-width: 425px) {
     .box{
       width: 320px;
@@ -2294,6 +2297,10 @@ body{
     }
     .content p{
       font-size: 20px;
+    }
+    .contact1{
+      margin-left: 0;
+      display: block;
     }
   }
   .box-contact{
