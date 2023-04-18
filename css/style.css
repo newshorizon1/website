@@ -99,6 +99,7 @@ body{
      }
   #header .navbar-brand {
      margin-top: 10px;
+     margin-right: 90px;
      font-size: 40px;
      font-family: 'Caveat Brush', cursive;
      font-style:oblique;
@@ -1569,6 +1570,7 @@ body{
   padding: 10px;
   padding-top: 5px;
   margin-top: 20px;
+  margin-right: 0;
   }
   #header .navbar-default {
   padding-top: 0px;
@@ -2196,7 +2198,27 @@ body{
   
   }
   /*--CSS Style for ABOUT US --*/
-  
+  .icon{
+    width: 27px;
+    height: 27px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+  }
+  @media (min-width:768px) {
+    .icon{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    }
+  }
+  @media (max-width:1440px) {
+    .icon{
+    width: 27px;
+    height: 27px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+  }
+}
   .box{
     width: 1000px;
     background: rgba(0, 0, 0, 0.4);
@@ -2204,11 +2226,30 @@ body{
     text-align: center;
     margin: auto;
     margin-top: 10%;
-    margin-bottom: 15%;
+    margin-bottom: 1%;
     color: white;
   }
-  
   .box h1{
+    color: #3DED97;
+    font-family: Roboto, Arial, Helvetica;
+    font-size: 110px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+  }
+  .box-vision{
+    width: 1000px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: white;
+  }
+  .box-vision h1{
     color: #3DED97;
     font-family: Roboto, Arial, Helvetica;
     font-size: 110px;
@@ -2223,6 +2264,12 @@ body{
       width: 320px;
     }
     .box h1{
+      font-size: 50px;
+    }
+    .box-vision{
+      width: 320px;
+    }
+    .box-vision h1{
       font-size: 50px;
     }
   }
@@ -2283,7 +2330,6 @@ body{
 }
 .contact-email{
   cursor: pointer;
-  text-decoration: underline;
 }
 .contact-number{
   text-decoration: underline;
@@ -2353,7 +2399,7 @@ body{
     justify-content: center;
     text-align: center;
     letter-spacing: -9px;
-    margin-top: 110px;
+    margin-top: 5%;
   }
   @media (max-width: 425px) {
     .web-title1{
@@ -2365,7 +2411,7 @@ body{
     .web-title1{
     font-size: 110px;
     letter-spacing: -2px;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 0;
     }  
   }
